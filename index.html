@@ -1,0 +1,727 @@
+<html>
+  <head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>i5ting_ztree_toc:Confluence</title>
+		<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+	  <style>
+		pre {
+		    counter-reset: line-numbering;
+		    border: solid 1px #d9d9d9;
+		    border-radius: 0;
+		    background: #fff;
+		    padding: 0;
+		    line-height: 23px;
+		    margin-bottom: 30px;
+		    white-space: pre;
+		    overflow-x: auto;
+		    word-break: inherit;
+		    word-wrap: inherit;
+		}
+
+		pre a::before {
+		  content: counter(line-numbering);
+		  counter-increment: line-numbering;
+		  padding-right: 1em; /* space after numbers */
+		  width: 25px;
+		  text-align: right;
+		  opacity: 0.7;
+		  display: inline-block;
+		  color: #aaa;
+		  background: #eee;
+		  margin-right: 16px;
+		  padding: 2px 10px;
+		  font-size: 13px;
+		  -webkit-touch-callout: none;
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
+
+		pre a:first-of-type::before {
+		  padding-top: 10px;
+		}
+
+		pre a:last-of-type::before {
+		  padding-bottom: 10px;
+		}
+
+		pre a:only-of-type::before {
+		  padding: 10px;
+		}
+
+		.highlight { background-color: #ffffcc } /* RIGHT */
+		</style>
+  </head>
+  <body>
+	  <div>
+				<div style='width:25%;'>
+						<ul id="tree" class="ztree" style='width:100%'>
+
+						</ul>
+				</div>
+        <div id='readme' style='width:70%;margin-left:20%;'>
+          	<article class='markdown-body'>
+            	<p><script type="text/javascript" src="jquery-3.4.1.min.js"></script></p>
+<p><script type="text/javascript" src="2html.js"></script></p>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<h1 id="layout-">Layout布局</h1>
+<p>协助进行页面级整体布</p>
+<h2 id="-">组件概述</h2>
+<p><strong>Layout：</strong>布局容器，底层模块其下可嵌套 Header Sider Content Footer 或 Layout 本身，可以放在任何父容器中。</p>
+<p><strong>Header：</strong>顶部导航栏，自带默认样式，且始终固定</p>
+<p><strong>Sider：</strong>侧边栏，自带默认样式及基本功能，宽度可折叠扩展</p>
+<p><strong>Content1：</strong>内容展示区，自带默认样式，通常情况下只承载数据列表相关内容</p>
+<p><strong>Content2：</strong> 功能操作区，自带默认样式，通常情况下承载相关操作表单、侧导航、标题栏等内容</p>
+<p><strong>Footer</strong>：底部布局，自带默认样式，其下可嵌套任何元素，只能放在 Layout 中</p>
+<h2 id="-">尺寸视觉快速查阅</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>尺寸</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>高度 32px，  宽度：1440px</td>
+<td>#161616</td>
+<td></td>
+</tr>
+<tr>
+<td>Sider</td>
+<td>宽度150px ， 拓展150px+8n</td>
+<td>#2B2B2B</td>
+<td></td>
+</tr>
+<tr>
+<td>Footer</td>
+<td>高度28px</td>
+<td>#161616</td>
+<td></td>
+</tr>
+<tr>
+<td>Content1</td>
+<td>-</td>
+<td>#000000</td>
+<td></td>
+</tr>
+<tr>
+<td>Content2</td>
+<td>-</td>
+<td>#2B2B2B</td>
+<td></td>
+</tr>
+<tr>
+<td>Space</td>
+<td>2px</td>
+<td>#4C4C4F</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">典型的页面布局</h2>
+<blockquote>
+<p>上中下布局<img src="终端Confluence.assets/Slice.jpg" alt="Slice"></p>
+</blockquote>
+<blockquote>
+<p>顶部-侧边布局-通栏</p>
+<p><img src="终端Confluence.assets/单账户-1 copy 3.jpg" alt="单账户-1 copy 3"></p>
+</blockquote>
+<h1 id="-header">顶部栏Header</h1>
+<h2 id="logo">LOGO</h2>
+<table>
+<thead>
+<tr>
+<th>左边距</th>
+<th>左边距</th>
+<th>上下间距</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>高度20px 宽度 84px</td>
+<td>10px</td>
+<td>6px</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>字号</th>
+<th>默认颜色</th>
+<th>悬停颜色</th>
+<th>选中颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑版</td>
+<td>14px</td>
+<td>#BDC0C7</td>
+<td>#F7FAFF</td>
+<td>#FFFFFF 加粗Semibold</td>
+</tr>
+<tr>
+<td>蓝版</td>
+<td>14px</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="icon">ICON</h2>
+<p> <u><a href="终端Confluence.assets/顶部栏">下载点击icon</a></u></p>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>容器大小</th>
+<th>默认颜色</th>
+<th>悬停颜色</th>
+<th>点击颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑版</td>
+<td>16px*16px</td>
+<td>#8E8E8E</td>
+<td>#D2D2D3</td>
+<td>#616266</td>
+</tr>
+<tr>
+<td>蓝版</td>
+<td>16px*16px</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>提供SVG格式图标，请程序调用也使用svg矢量图片，避免高清屏模糊问题</p>
+</blockquote>
+<blockquote>
+<p>实例展示</p>
+<p><img src="终端Confluence.assets/Group 18.jpg" alt="Group 18"></p>
+</blockquote>
+<h1 id="-footer">底部栏Footer</h1>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>字号</th>
+<th>默认颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑版</td>
+<td>12px</td>
+<td>#BDC0C7</td>
+</tr>
+<tr>
+<td>蓝版</td>
+<td>12px</td>
+</tr>
+</tbody>
+</table>
+<h2 id="icon">ICON</h2>
+<p> <u><a href="终端Confluence.assets/底部栏">下载点击icon</a></u></p>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>容器大小</th>
+<th>默认颜色</th>
+<th>悬停颜色</th>
+<th>点击颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑版</td>
+<td>16px*16px</td>
+<td>#8E8E8E</td>
+<td>#D2D2D3</td>
+<td>#616266</td>
+</tr>
+<tr>
+<td>蓝版</td>
+<td>16px*16px</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="-sider">侧边栏Sider</h1>
+<h2 id="-">菜单项</h2>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>尺寸</th>
+<th>上下间距</th>
+<th>默认颜色</th>
+<th>悬停颜色</th>
+<th>选中颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑</td>
+<td>高度28px 宽度自适应菜单栏大小</td>
+<td>0px</td>
+<td>#2B2B2B</td>
+<td>#20477B</td>
+<td>#0086E6</td>
+</tr>
+<tr>
+<td>蓝</td>
+<td>高度28px 宽度自适应菜单栏大小</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>字号</th>
+<th>默认颜色</th>
+<th>悬停颜色</th>
+<th>选中颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑版</td>
+<td>13px</td>
+<td>#A6A9AE</td>
+<td>#F7FAFF</td>
+<td>#FFFFFF</td>
+</tr>
+<tr>
+<td>蓝版</td>
+<td>13px</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">实例</h2>
+<blockquote>
+<p><img src="终端Confluence.assets/策略交易-网格交易调整 copy 2.jpg" alt="策略交易-网格交易调整 copy 2" style="zoom:25%;"/></p>
+</blockquote>
+<h1 id="table-">Table表格</h1>
+<p>最基础的数据列表展示，可承载文字、列表、常用于数据展示页面</p>
+<h2 id="-">何时使用</h2>
+<ul>
+<li><p>当有大量结构化的数据需要展现时；</p>
+</li>
+<li><p>当需要对数据进行排序、搜索、分页、自定义操作等复杂行为时</p>
+</li>
+</ul>
+<h2 id="-">组件概述</h2>
+<p><strong>Header：</strong>表头容器，用于放置表头字段文字</p>
+<p><strong>Columns</strong>：表格项容器，自带默认样式</p>
+<p><strong>Columns-space：</strong>表格项容器间隔，自带默认样式</p>
+<p><strong>Line：</strong>分割线，用于表格内数据项的分割，包括表头表项都使用同一种</p>
+<h2 id="-">尺寸视觉快速查阅</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>尺寸</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header 表头容器</td>
+<td>高度24px</td>
+<td>#11181C</td>
+<td></td>
+</tr>
+<tr>
+<td>Columns 表格项容器</td>
+<td>高度22px</td>
+<td>#000000</td>
+<td></td>
+</tr>
+<tr>
+<td>Columns-space 间隔</td>
+<td>高度22px</td>
+<td>#161517</td>
+<td></td>
+</tr>
+<tr>
+<td>Columns-hover 悬浮</td>
+<td>高度22px</td>
+<td>#46494F</td>
+<td></td>
+</tr>
+<tr>
+<td>Columns-pressed 选中</td>
+<td>高度22px</td>
+<td>#20477B</td>
+<td></td>
+</tr>
+<tr>
+<td>Line 分割线</td>
+<td>1px</td>
+<td>#3B3B3D</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>字号</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+<th>对齐方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title 表头字段</td>
+<td>12px semibold</td>
+<td>#FFFFFF</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-text 文字默认</td>
+<td>12px</td>
+<td>#D2D2D3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-edit 可编辑</td>
+<td>12px</td>
+<td>#498FDE</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-perssed 选中</td>
+<td>12px</td>
+<td>#FFFFFF</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-Number 金额</td>
+<td>12px</td>
+<td>#D2D2D3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-Date 日期</td>
+<td>12px</td>
+<td>#D2D2D3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-up 涨</td>
+<td>12px</td>
+<td>#FF6155</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-down 跌</td>
+<td>12px</td>
+<td>#50C752</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-buy 买</td>
+<td>12px</td>
+<td>#FF6155</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Text-sell 卖</td>
+<td>12px</td>
+<td>#6EAFFF</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">典型实例</h2>
+<blockquote>
+<p><strong>简单的表格</strong></p>
+<p><img src="终端Confluence.assets/Group 37.jpg" alt="Group 37"></p>
+</blockquote>
+<blockquote>
+<p><strong>可选择表格</strong></p>
+<ul>
+<li>第一列选择框，包含单选多选</li>
+<li>默认点击 checkbox 触发选择行为，需要点击行触发可以<a href="">参考checkbox说明</a></li>
+</ul>
+<p><img src="终端Confluence.assets/Group 19.jpg" alt="Group 19"></p>
+</blockquote>
+<blockquote>
+<p><strong>带排序表格</strong>  <a href="终端Confluence.assets/表格">控件下载</a></p>
+<ul>
+<li>带有排序控件的字段即可进行排序操作，选中后当前字段背景色变为：#293136</li>
+</ul>
+<p><img src="终端Confluence.assets/Group-10.jpg" alt="Group-10"></p>
+</blockquote>
+<blockquote>
+<p><strong>买卖方向提示性表格</strong></p>
+<ul>
+<li>为了区分买卖方向的视觉识别，故将买入与卖出行分别用红蓝进行区别，一般用于买卖操作的记录</li>
+</ul>
+<p><img src="终端Confluence.assets/Group.jpg" alt="Group"></p>
+</blockquote>
+<blockquote>
+<p><strong>包含可编辑单元格的表格</strong></p>
+<ul>
+<li>编辑输入文本框，详细交互效果可查阅<a href="#Input输入框">输入框Input模块</a></li>
+</ul>
+<p><img src="终端Confluence.assets/Group 3.jpg" alt="Group 3"></p>
+</blockquote>
+<blockquote>
+<p><strong>嵌套型子表格</strong></p>
+<ul>
+<li>嵌套表格表头颜色：#282829</li>
+<li>嵌套表格单元格颜色：#1C1D21</li>
+</ul>
+<p><img src="终端Confluence.assets/Group 9.jpg" alt="Group 9"></p>
+</blockquote>
+<blockquote>
+<p><strong>带浮窗筛选表格</strong></p>
+<p>浮窗：尺寸110px*60px  底色#2B2B2B  描边 1px #434448</p>
+<p>check栏：尺寸24px*58px 底色#141415 </p>
+<p>文字：14px #FFFFFF</p>
+<p><img src="终端Confluence.assets/Group 11.jpg" alt="Group 11"></p>
+</blockquote>
+<h1 id="radio-">Radio单选框</h1>
+<h2 id="-">何时使用</h2>
+<ul>
+<li><p>用于在多个备选项中选中单个状态。</p>
+</li>
+<li><p>和 <code>Select</code> 的区别是，<code>Radio</code> 所有选项默认可见，方便用户在比较中选择，因此选项不宜过多</p>
+</li>
+</ul>
+<h2 id="-">基本</h2>
+<ul>
+<li><p>尺寸：13px，包含内描边</p>
+</li>
+<li><p>文本与Radio间距：8px</p>
+<blockquote>
+<p><img src="终端Confluence.assets/规范-3-2099681.jpg" alt="规范-3"></p>
+</blockquote>
+</li>
+</ul>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>字号</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text-normal</td>
+<td>13px</td>
+<td>#D2D2D3</td>
+<td></td>
+</tr>
+<tr>
+<td>Text-disable</td>
+<td>13px</td>
+<td>#616266</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">控件下载</h2>
+<p><a href="终端Confluence.assets/单选控件">点击下载</a></p>
+<h1 id="checkbox-">Checkbox多选框</h1>
+<h2 id="-">何时使用</h2>
+<ul>
+<li>在一组可选项中进行多项选择时</li>
+<li>单独使用可以表示两种状态之间的切换，和 <code>switch</code> 类似。区别在于切换 <code>switch</code> 会直接触发状态改变，而 <code>checkbox</code> 一般用于状态标记，需要和提交操作配合。</li>
+</ul>
+<h2 id="-">基本</h2>
+<ul>
+<li><p>尺寸：13px，包含内描边</p>
+</li>
+<li><p>文本与Checkbox间距：8px</p>
+</li>
+</ul>
+<blockquote>
+<p><img src="终端Confluence.assets/checkbox-2099712.jpg" alt="checkbox"></p>
+</blockquote>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>字号</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text-normal</td>
+<td>13px</td>
+<td>#D2D2D3</td>
+<td></td>
+</tr>
+<tr>
+<td>Text-disable</td>
+<td>13px</td>
+<td>#616266</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">控件下载</h2>
+<p><a href="终端Confluence.assets/多选控件">点击下载</a></p>
+<h1 id="input-">Input输入框</h1>
+<p>通过鼠标或键盘输入内容，是最基础的表单域的包装</p>
+<h2 id="-">何时使用</h2>
+<ul>
+<li>需要用户输入表单域内容时。</li>
+<li>提供组合型输入框，带搜索的输入框，还可以进行大小选择。</li>
+</ul>
+<h2 id="-">基本</h2>
+<ul>
+<li>我们为<code>&lt;Input /&gt;</code> 输入框定义了三种尺寸（大、默认、小），高度分别为 <code>24px</code>、<code>20px</code> 和 <code>18px</code></li>
+<li>定义两种输入框上下间距（大、小），尺寸分别<code>8px</code>、<code>4px</code></li>
+<li>标题文字与输入框距离<code>8px</code>，内部文字与输入框左侧间距<code>6px</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th>文字（黑版）</th>
+<th>文字（蓝版）</th>
+<th>输入框（黑版）</th>
+<th>输入框（蓝版）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">缺省态</td>
+<td>#6D6F73</td>
+<td></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:left">默认态</td>
+<td>#FFFFFF</td>
+<td></td>
+<td>填充<code>#000000</code>  描边<code>#4C4D52</code> <code>1px</code> 不带圆角</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">悬停态</td>
+<td>#6D6F73</td>
+<td></td>
+<td>填充<code>#000000</code> 描边<code>#0086E6</code> <code>1px</code> 不带圆角</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">点击态</td>
+<td>#FFFFFF</td>
+<td></td>
+<td>填充<code>#000000</code>  描边<code>#0086E6</code> <code>1px</code> 不带圆角</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">禁用态</td>
+<td>#555659</td>
+<td></td>
+<td>填充<code>#25262A</code>  无描边 不带圆角</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><img src="终端Confluence.assets/Artboard.jpg" alt="Artboard"></p>
+</blockquote>
+<h2 id="-">扩展形式</h2>
+<blockquote>
+<p><strong>带前缀和后缀输入框</strong>    <a href="终端Confluence.assets/输入框">下载控件</a></p>
+<p><img src="终端Confluence.assets/Artboard-1405631.jpg" alt="Artboard"></p>
+</blockquote>
+<blockquote>
+<p><strong>搜索框</strong>   <a href="终端Confluence.assets/输入框">下载控件</a></p>
+<ul>
+<li>按钮控件请参阅<u><a href="">Buttom</a></u>控件说明</li>
+</ul>
+<p><img src="终端Confluence.assets/3.jpg" alt="3"></p>
+</blockquote>
+<blockquote>
+<p><strong>输入框组合</strong></p>
+<ul>
+<li>组合间距分为两种：<code>2px</code>、<code>0px</code></li>
+</ul>
+<p><img src="终端Confluence.assets/4-1411302.jpg" alt="4"></p>
+</blockquote>
+<blockquote>
+<p><strong>带步进控件</strong> <a href="终端Confluence.assets/输入框">下载控件</a></p>
+<p><img src="终端Confluence.assets/2-1410259.jpg" alt="2"></p>
+</blockquote>
+<blockquote>
+<p><strong>文本域</strong></p>
+<ul>
+<li>用于多行输入</li>
+<li>有下角需要加上控件 <a href="终端Confluence.assets/输入框">下载控件</a></li>
+</ul>
+<p><img src="终端Confluence.assets/5-1412459.jpg" alt="5"></p>
+</blockquote>
+<h2 id="-">控件下载</h2>
+<p><a href="终端Confluence.assets/输入框">下载控件</a></p>
+
+          	</article>
+        </div>
+		</div>
+  </body>
+</html>
+<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+<script type="text/javascript" src="toc_conf.js"></script>
+
+<SCRIPT type="text/javascript" >
+<!--
+$(document).ready(function(){
+    var css_conf = eval(markdown_panel_style);
+    $('#readme').css(css_conf)
+    
+    var conf = eval(jquery_ztree_toc_opts);
+		$('#tree').ztree_toc(conf);
+});
+//-->
+</SCRIPT>
