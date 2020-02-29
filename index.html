@@ -65,12 +65,7 @@
 				</div>
         <div id='readme' style='width:70%;margin-left:20%;'>
           	<article class='markdown-body'>
-            	<p><script type="text/javascript" src="jquery-3.4.1.min.js"></script></p>
-<p><script type="text/javascript" src="2html.js"></script></p>
-<link rel="stylesheet" type="text/css" href="style.css">
-
-
-<h1 id="layout-">Layout布局</h1>
+            	<h1 id="layout-">Layout布局</h1>
 <p>协助进行页面级整体布</p>
 <h2 id="-">组件概述</h2>
 <p><strong>Layout：</strong>布局容器，底层模块其下可嵌套 Header Sider Content Footer 或 Layout 本身，可以放在任何父容器中。</p>
@@ -533,7 +528,7 @@
 <ul>
 <li><p>尺寸：13px，包含内描边</p>
 </li>
-<li><p>文本与Radio间距：8px</p>
+<li><p>文本与Radio间距：6px</p>
 <blockquote>
 <p><img src="Confluence.assets/规范-3-2099681.jpg" alt="规范-3"></p>
 </blockquote>
@@ -703,6 +698,153 @@
 </blockquote>
 <h2 id="-">控件下载</h2>
 <p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
+<h1 id="modal-">Modal 弹窗</h1>
+<h2 id="-">何时使用</h2>
+<ul>
+<li>需要用户处理事务，又不希望跳转页面以致打断工作流程时，可以使用 <code>Modal</code> 在当前页面正中打开一个浮层，承载相应的操作。</li>
+</ul>
+<h2 id="-">组件概述</h2>
+<p><strong>Header：</strong>弹窗标题栏，用于放置弹窗名称、关闭缩小等控件</p>
+<p><strong>Content1：</strong>弹窗默认底层，可看作一级</p>
+<p><strong>Content2：</strong>弹窗确认内容底色，可看作二级</p>
+<p><strong>Tips_iocn：</strong>主要用于信息提示弹窗的图标</p>
+<p><strong>Trade_icon：</strong>主要用于提示交易买入卖出申购等方向的提示图标</p>
+<p><strong>Button1：</strong>高亮按钮，层级较为突出</p>
+<p><strong>Button2：</strong>一般按钮，用于普通操作的按钮</p>
+<p><strong>Line：</strong>分割线，用于内容的分割</p>
+<h2 id="-">基础布局</h2>
+<ul>
+<li>内容区域与容器四周间距为 <code>左16px</code>、<code>上24px</code>、<code>右16px</code>、<code>下16px</code></li>
+<li>标题文字间距 <code>左8px</code>，<code>上7px</code></li>
+<li>关闭控件间距 <code>右8px</code>，<code>上7px</code></li>
+<li>按钮之间间距<code>8px</code>，与容器间距 <code>右16px</code>、<code>下16px</code></li>
+<li>常用宽度尺寸建议 <code>320px</code>、<code>376px</code>、<code>526px</code>、<code>780px</code></li>
+</ul>
+<p><img src="Confluence.assets/表格 copy.png" alt="表格 copy"></p>
+<h2 id="-">尺寸视觉快速查阅</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>尺寸</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>固定高度30px</td>
+<td>填充#7A7A7A</td>
+<td></td>
+</tr>
+<tr>
+<td>Content1</td>
+<td>--</td>
+<td>填充 #EBECED  描边 #7A7A7A  投影 #000000 aplha 0.8 x, y - 0px, 7px blur - 15px</td>
+<td></td>
+</tr>
+<tr>
+<td>Content2</td>
+<td>--</td>
+<td>填充 #FFFFFF  描边 #D9D5D5</td>
+<td></td>
+</tr>
+<tr>
+<td>Tips_iocn</td>
+<td>24px*24px</td>
+<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/弹窗">点击下载icon</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Trade_icon</td>
+<td>88px*88px</td>
+<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/弹窗">点击下载icon</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Button1</td>
+<td>78px*26px</td>
+<td>填充#0086E6 圆角2px</td>
+<td></td>
+</tr>
+<tr>
+<td>Button2</td>
+<td>78px*26px</td>
+<td>填充#EEEEEE 圆角2px 描边#B7B7B7</td>
+<td></td>
+</tr>
+<tr>
+<td>Line</td>
+<td>1px</td>
+<td>填充#E6E6E6</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>字号</th>
+<th>视觉（黑）</th>
+<th>视觉（蓝）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text-normal</td>
+<td>13px</td>
+<td>#FFFFFF</td>
+<td></td>
+</tr>
+<tr>
+<td>一级提示标题</td>
+<td>16px 加粗</td>
+<td>#000000</td>
+<td></td>
+</tr>
+<tr>
+<td>二级提示文字</td>
+<td>14px</td>
+<td>#323232</td>
+<td></td>
+</tr>
+<tr>
+<td>正文文字</td>
+<td>13px</td>
+<td>#323232</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">典型实例</h2>
+<h3 id="-">普通确认弹窗</h3>
+<ul>
+<li>宽度尺寸：设定大小两种尺寸建议，分别为<code>320px</code>、<code>376px</code></li>
+</ul>
+<p><strong>简单信息提示框  尺寸320px*160px</strong></p>
+<p><img src="Confluence.assets/弹窗-2874070.png" alt="弹窗"></p>
+<p><strong>简单买卖提示框 尺寸 320px*191px</strong></p>
+<p><img src="Confluence.assets/弹窗 copy.png" alt="弹窗 copy"></p>
+<p><strong>复杂买卖提示框 尺寸376px*270px</strong></p>
+<p><img src="Confluence.assets/弹窗 copy 2.png" alt="弹窗 copy 2"></p>
+<p><strong>进度条 尺寸 320px*160px</strong></p>
+<p><img src="Confluence.assets/弹窗 copy 3.png" alt="弹窗 copy 3"></p>
+<h3 id="-">表单操作弹窗</h3>
+<ul>
+<li>宽度尺寸：常用的几种宽度设定<code>320px</code>、<code>376px</code>、<code>526px</code>、<code>780px</code>、更大尺寸可根据实际UI设计进行调整，原则上最大控制在<code>1300px</code>，需要加上滚动条判断</li>
+<li>最大高度限定：<code>700px</code>，如果超出该尺寸，弹窗需出现滚动条，防止信息被遮盖无法看到</li>
+<li>输入表单之间上下间距为<code>8px</code></li>
+</ul>
+<p><strong>简单操作弹窗  <code>宽度320px</code></strong></p>
+<p><img src="Confluence.assets/弹窗 copy 4.png" alt="弹窗 copy 4"></p>
+<p><strong>基础操作弹窗 宽度<code>376px</code></strong></p>
+<p><img src="Confluence.assets/弹窗 copy 5.png" alt="弹窗 copy 5"></p>
+<p><strong>基础操作弹窗 中 <code>宽度526px</code></strong></p>
+<p><img src="Confluence.assets/弹窗 copy 6.png" alt="弹窗 copy 6"></p>
+<p><strong>操作弹窗 大 <code>宽度780px</code></strong></p>
+<p><img src="Confluence.assets/弹窗 copy 7.png" alt="弹窗 copy 7"></p>
+<p><img src="Confluence.assets/弹窗 copy 8.png" alt="弹窗 copy 8"></p>
 
           	</article>
         </div>
