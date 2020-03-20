@@ -1,7 +1,7 @@
 <html>
   <head>
 	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>i5ting_ztree_toc:Confluence</title>
+    <title>i5ting_ztree_toc:Confluence0320</title>
 		<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
 		<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
 		<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
@@ -65,7 +65,23 @@
 				</div>
         <div id='readme' style='width:70%;margin-left:20%;'>
           	<article class='markdown-body'>
-            	<h1 id="layout-">Layout布局</h1>
+            	<h1 id="-">更新提示</h1>
+<h3 id="2020-3-20">2020.3.20</h3>
+<ul>
+<li><p>Button 按钮：新增获取焦点状态样式，详见 Button 按钮-&gt;典型实例-&gt;主按钮</p>
+</li>
+<li><p>Radio单选框：新增选中不可用状态；新增弹窗浅色样式；尺寸大小调整 13px-&gt;14px；详见 Radio单选框-&gt;基本</p>
+</li>
+<li><p>Checkbox多选框：新增选中不可用，部分选中不可用；新增弹窗浅色样式；尺寸大小调整 13px-&gt;14px；详见 Checkbox多选框-&gt;基本</p>
+</li>
+<li><p>Input输入框：新增弹窗浅色样式；新增只读输入框；输入框禁用态填充色修改<code>#25262A</code>改为<code>#1C1D1F</code>详见Input输入框-&gt;基本</p>
+</li>
+<li><p>新增TreeSelect 树选择控件模块</p>
+</li>
+<li><p>新增Alignment数据对齐方式；详见 Alignment数据对齐方式</p>
+</li>
+</ul>
+<h1 id="layout-">Layout布局</h1>
 <p>协助进行页面级整体布</p>
 <h2 id="-">组件概述</h2>
 <p><strong>Layout：</strong>布局容器，底层模块其下可嵌套 Header Sider Content Footer 或 Layout 本身，可以放在任何父容器中。</p>
@@ -130,7 +146,7 @@
 <p>顶部-侧边布局-通栏</p>
 <p><img src="Confluence.assets/单账户-1 copy 3.jpg" alt="单账户-1 copy 3"></p>
 </blockquote>
-<h1 id="-header">顶部栏Header</h1>
+<h1 id="header-">Header顶部栏</h1>
 <h2 id="logo">LOGO</h2>
 <table>
 <thead>
@@ -176,7 +192,7 @@
 </tbody>
 </table>
 <h2 id="icon">ICON</h2>
-<p> <u><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/顶部栏">下载点击icon</a></u></p>
+<p> <u><a href="Confluence.assets/顶部栏">下载点击icon</a></u></p>
 <table>
 <thead>
 <tr>
@@ -211,7 +227,7 @@
 <p>选中状态火柴棍颜色 #0086E6</p>
 <p><img src="Confluence.assets/Group 18.jpg" alt="Group 18"></p>
 </blockquote>
-<h1 id="-footer">底部栏Footer</h1>
+<h1 id="footer-">Footer底部栏</h1>
 <h2 id="-">文字</h2>
 <table>
 <thead>
@@ -234,7 +250,7 @@
 </tbody>
 </table>
 <h2 id="icon">ICON</h2>
-<p> <u><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/底部栏">下载点击icon</a></u></p>
+<p> <u><a href="Confluence.assets/底部栏">下载点击icon</a></u></p>
 <table>
 <thead>
 <tr>
@@ -261,7 +277,7 @@
 </tr>
 </tbody>
 </table>
-<h1 id="-sider">侧边栏Sider</h1>
+<h1 id="sider-">Sider 侧边栏</h1>
 <h2 id="-">菜单项</h2>
 <table>
 <thead>
@@ -323,15 +339,6 @@
 <blockquote>
 <p><img src="Confluence.assets/策略交易-网格交易调整 copy 2.jpg" alt="策略交易-网格交易调整 copy 2" style="zoom:25%;"/></p>
 </blockquote>
-<h1 id="-">数据格式</h1>
-<h2 id="-">设计目标</h2>
-<p>规范数据表达，保证直观准确一致地理解数据</p>
-<h2 id="-">类型</h2>
-<h3 id="-">数值</h3>
-<h3 id="-">金额</h3>
-<h3 id="-">日期时间</h3>
-<h3 id="-">数字脱敏</h3>
-<h3 id="-">无数据</h3>
 <h1 id="table-">Table表格</h1>
 <p>最基础的数据列表展示，可承载文字、列表、常用于数据展示页面</p>
 <h2 id="-">何时使用</h2>
@@ -353,7 +360,7 @@
 <th>名称</th>
 <th>尺寸</th>
 <th>视觉（黑）</th>
-<th>视觉（蓝）</th>
+<th>视觉（弹窗）</th>
 </tr>
 </thead>
 <tbody>
@@ -361,36 +368,37 @@
 <td>Header 表头容器</td>
 <td>高度24px</td>
 <td>#11181C</td>
-<td></td>
+<td>#DFE7ED</td>
 </tr>
 <tr>
 <td>Columns 表格项容器</td>
 <td>高度22px</td>
 <td>#000000</td>
-<td></td>
+<td>#FFFFFF</td>
 </tr>
 <tr>
 <td>Columns-space 间隔</td>
 <td>高度22px</td>
 <td>#161517</td>
-<td></td>
+<td>#F5F5F5</td>
 </tr>
 <tr>
 <td>Columns-hover 悬浮</td>
 <td>高度22px</td>
 <td>#46494F</td>
-<td></td>
+<td>#BBCCDC</td>
 </tr>
 <tr>
 <td>Columns-pressed 选中</td>
 <td>高度22px</td>
 <td>#20477B</td>
-<td></td>
+<td>#BBDEFF</td>
 </tr>
 <tr>
 <td>Line 分割线</td>
 <td>1px</td>
 <td>#3B3B3D</td>
+<td>#D9D5D5</td>
 </tr>
 </tbody>
 </table>
@@ -401,8 +409,7 @@
 <th>名称</th>
 <th>字号</th>
 <th>视觉（黑）</th>
-<th>视觉（蓝）</th>
-<th>对齐方式</th>
+<th>视觉（弹窗）</th>
 </tr>
 </thead>
 <tbody>
@@ -410,60 +417,119 @@
 <td>Title 表头字段</td>
 <td>12px</td>
 <td>#FFFFFF</td>
-<td></td>
-<td></td>
+<td>#323232</td>
 </tr>
 <tr>
 <td>Text-text 文字默认</td>
 <td>12px</td>
 <td>#D2D2D3</td>
-<td></td>
-<td></td>
+<td>#323232</td>
 </tr>
 <tr>
 <td>Text-edit 可编辑</td>
 <td>12px</td>
 <td>#6EAFFF 如与卖出同时出现则加下划线区别</td>
-<td></td>
-<td></td>
+<td>#0086E6</td>
 </tr>
 <tr>
 <td>Text-perssed 选中</td>
 <td>12px</td>
 <td>#FFFFFF</td>
-<td></td>
-<td></td>
+<td>#323232</td>
 </tr>
 <tr>
 <td>Text-up 涨</td>
 <td>12px</td>
 <td>#FF6155</td>
-<td></td>
-<td></td>
+<td>#C00000</td>
 </tr>
 <tr>
 <td>Text-down 跌</td>
 <td>12px</td>
 <td>#50C752</td>
-<td></td>
-<td></td>
+<td>#18853A</td>
 </tr>
 <tr>
 <td>Text-buy 买</td>
 <td>12px</td>
 <td>#FF6155</td>
-<td></td>
-<td></td>
+<td>#C00000</td>
 </tr>
 <tr>
 <td>Text-sell 卖</td>
 <td>12px</td>
 <td>#6EAFFF</td>
-<td></td>
+<td>#0000A8</td>
 </tr>
 </tbody>
 </table>
-<h2 id="-">对齐方式</h2>
+<h2 id="-">典型实例</h2>
+<h3 id="-"><strong>简单的表格</strong></h3>
+<p><img src="Confluence.assets/Group 37.jpg" alt="Group 37"></p>
+<p><img src="Confluence.assets/弹窗表格-1.png" alt="弹窗表格-1"></p>
+<h3 id="-">可选择表格</h3>
+<ul>
+<li>第一列选择框，包含单选多选</li>
+<li>默认点击 checkbox 触发选择行为，需要点击行触发可以<a href="">参考checkbox说明</a></li>
+</ul>
+<p><img src="Confluence.assets/Group 19.jpg" alt="Group 19"></p>
+<h3 id="-"><strong>带排序表格</strong></h3>
+<p>  <a href="Confluence.assets/表格">控件下载</a></p>
+<ul>
+<li>带有排序控件的字段即可进行排序操作，悬浮时背景色#20262A   选中后背景色#293136</li>
+</ul>
+<p><img src="Confluence.assets/表格.png" alt="表格"></p>
+<ul>
+<li>带有排序控件的字段即可进行排序操作，悬浮时背景色##D5DDE3   选中后背景色#CBD5DD</li>
+</ul>
+<p><img src="Confluence.assets/弹窗表格-2.png" alt="弹窗表格-2"></p>
+<h3 id="-">买卖方向提示性表格</h3>
+<ul>
+<li>为了区分买卖方向的视觉识别，故将买入与卖出行分别用红蓝进行区别，一般用于买卖操作的记录</li>
+</ul>
+<p><img src="Confluence.assets/Group.jpg" alt="Group"></p>
+<p><img src="Confluence.assets/弹窗表格-3.png" alt="弹窗表格-3"></p>
+<h3 id="-">包含可编辑单元格的表格</h3>
+<ul>
+<li>编辑输入文本框，详细交互效果可查阅<a href="#Input输入框">输入框Input模块</a></li>
+</ul>
+<p><img src="Confluence.assets/Group 3.jpg" alt="Group 3"></p>
+<p><img src="Confluence.assets/弹窗表格-4.png" alt="弹窗表格-4"></p>
+<h3 id="-">嵌套型子表格</h3>
+<ul>
+<li>嵌套部分容器底色#2C2C2C</li>
+</ul>
+<p><img src="Confluence.assets/Group 9.jpg" alt="Group 9"></p>
+<ul>
+<li>嵌套部分容器底色#E1E1E1</li>
+</ul>
+<p><img src="Confluence.assets/弹窗表格-5.png" alt="弹窗表格-5"></p>
+<h3 id="-">带浮窗筛选表格</h3>
+<ul>
+<li><p>浮窗：尺寸110px*60px  底色#2B2B2B  描边 1px #434448</p>
+</li>
+<li><p>check栏：尺寸24px*58px 底色#141415 </p>
+</li>
+<li><p>文字：14px #FFFFFF</p>
+</li>
+</ul>
+<p><img src="Confluence.assets/Group 11.jpg" alt="Group 11"></p>
+<ul>
+<li>浮窗：尺寸110px*60px  底色#FFFFFF  描边 1px ##C0C0C0</li>
+<li>check栏：尺寸24px*58px 底色#ECECEC</li>
+<li>文字：14px #323232</li>
+</ul>
+<p><img src="Confluence.assets/弹窗表格-6.png" alt="弹窗表格-6"></p>
+<h1 id="-">数据格式</h1>
+<h2 id="-">设计目标</h2>
+<p>规范数据表达，保证直观准确一致地理解数据</p>
+<h2 id="-">类型</h2>
+<h3 id="-">数值</h3>
+<h3 id="-">金额</h3>
+<h3 id="-">日期时间</h3>
+<h3 id="-">数字脱敏</h3>
+<h3 id="-">无数据</h3>
+<h1 id="alignment-">Alignment数据对齐方式</h1>
 <table>
 <thead>
 <tr>
@@ -474,86 +540,37 @@
 </thead>
 <tbody>
 <tr>
-<td>代码编号、账户编号、合同编号等编号类</td>
+<td>L(list)、序号</td>
 <td>左对齐</td>
 <td></td>
 </tr>
 <tr>
-<td>序号</td>
+<td>I(identity)、代码编号、账户编号、合同编号等编号类、名称类</td>
 <td>左对齐</td>
 <td></td>
 </tr>
 <tr>
-<td>金额数字</td>
+<td>S(symbol)、买入或卖出或申购或登入登出等状态标识</td>
+<td>左对齐</td>
+<td></td>
+</tr>
+<tr>
+<td>N(number)、金额数字</td>
 <td>右对齐</td>
 <td></td>
 </tr>
 <tr>
-<td>日期时间</td>
+<td>D(data)、日期时间</td>
 <td>右对齐</td>
 <td></td>
 </tr>
 <tr>
-<td>买入或卖出或申购或登入登出等状态标识</td>
-<td>右对齐</td>
-<td></td>
-</tr>
-<tr>
-<td>操作按钮文字</td>
+<td>C(ctrl)、操作按钮文字</td>
 <td>居中</td>
 </tr>
 </tbody>
 </table>
-<h2 id="-">典型实例</h2>
-<blockquote>
-<p><strong>简单的表格</strong></p>
-<p><img src="Confluence.assets/Group 37.jpg" alt="Group 37"></p>
-</blockquote>
-<blockquote>
-<p><strong>可选择表格</strong></p>
-<ul>
-<li>第一列选择框，包含单选多选</li>
-<li>默认点击 checkbox 触发选择行为，需要点击行触发可以<a href="">参考checkbox说明</a></li>
-</ul>
-<p><img src="Confluence.assets/Group 19.jpg" alt="Group 19"></p>
-</blockquote>
-<blockquote>
-<p><strong>带排序表格</strong>  <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/表格">控件下载</a></p>
-<p>带有排序控件的字段即可进行排序操作，悬浮时背景色#20262A   选中后背景色#293136</p>
-<ul>
-<li><p><img src="Confluence.assets/表格.png" alt="表格"></p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<p><strong>买卖方向提示性表格</strong></p>
-<ul>
-<li>为了区分买卖方向的视觉识别，故将买入与卖出行分别用红蓝进行区别，一般用于买卖操作的记录</li>
-</ul>
-<p><img src="Confluence.assets/Group.jpg" alt="Group"></p>
-</blockquote>
-<blockquote>
-<p><strong>包含可编辑单元格的表格</strong></p>
-<ul>
-<li>编辑输入文本框，详细交互效果可查阅<a href="#Input输入框">输入框Input模块</a></li>
-</ul>
-<p><img src="Confluence.assets/Group 3.jpg" alt="Group 3"></p>
-</blockquote>
-<blockquote>
-<p><strong>嵌套型子表格</strong></p>
-<ul>
-<li>嵌套表格表头颜色：#282829</li>
-<li>嵌套表格单元格颜色：#1C1D21</li>
-</ul>
-<p><img src="Confluence.assets/Group 9.jpg" alt="Group 9"></p>
-</blockquote>
-<blockquote>
-<p><strong>带浮窗筛选表格</strong></p>
-<p>浮窗：尺寸110px*60px  底色#2B2B2B  描边 1px #434448</p>
-<p>check栏：尺寸24px*58px 底色#141415 </p>
-<p>文字：14px #FFFFFF</p>
-<p><img src="Confluence.assets/Group 11.jpg" alt="Group 11"></p>
-</blockquote>
+<p><img src="Confluence.assets/对齐方式.jpg" alt="对齐方式"></p>
 <h1 id="radio-">Radio单选框</h1>
 <h2 id="-">何时使用</h2>
 <ul>
@@ -564,12 +581,12 @@
 </ul>
 <h2 id="-">基本</h2>
 <ul>
-<li><p>尺寸：13px，包含内描边</p>
+<li><p>尺寸：14px，包含内描边</p>
 </li>
 <li><p>文本与Radio间距：8px</p>
-<blockquote>
+</li>
+<li><p>从左到右状态为：默认、悬停、选中、选中不可用、未选不可用</p>
 <p><img src="Confluence.assets/规范-3-2099681.jpg" alt="规范-3"></p>
-</blockquote>
 </li>
 </ul>
 <h2 id="-">文字</h2>
@@ -597,7 +614,7 @@
 </tbody>
 </table>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/单选控件">点击下载</a></p>
+<p><a href="Confluence.assets/单选控件">点击下载</a></p>
 <h1 id="checkbox-">Checkbox多选框</h1>
 <h2 id="-">何时使用</h2>
 <ul>
@@ -606,10 +623,9 @@
 </ul>
 <h2 id="-">基本</h2>
 <ul>
-<li><p>尺寸：13px，包含内描边</p>
-</li>
-<li><p>文本与Checkbox间距：8px</p>
-</li>
+<li>尺寸：14px，包含内描边</li>
+<li>文本与Checkbox间距：8px</li>
+<li>从左到右状态为：默认、悬停、选中、选中不可用、未选不可用、部分选中、部分选中不可用</li>
 </ul>
 <blockquote>
 <p><img src="Confluence.assets/checkbox-2099712.jpg" alt="checkbox"></p>
@@ -639,7 +655,7 @@
 </tbody>
 </table>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/多选控件">点击下载</a></p>
+<p><a href="Confluence.assets/多选控件">点击下载</a></p>
 <h1 id="input-">Input输入框</h1>
 <p>通过鼠标或键盘输入内容，是最基础的表单域的包装</p>
 <h2 id="-">何时使用</h2>
@@ -650,8 +666,8 @@
 <h2 id="-">基本</h2>
 <ul>
 <li>我们为<code>&lt;Input /&gt;</code> 输入框定义了三种尺寸（大、默认、小），高度分别为 <code>24px</code>、<code>20px</code> 和 <code>18px</code></li>
-<li>定义两种输入框上下间距（大、小），尺寸分别<code>8px</code>、<code>4px</code></li>
-<li>定义两种输入框左右间距（大、小），尺寸分别<code>16px</code>、<code>8px</code></li>
+<li>定义两种输入框之间上下间距（大、小），尺寸分别<code>8px</code>、<code>4px</code></li>
+<li>定义两种输入框之间左右间距（大、小），尺寸分别<code>16px</code>、<code>8px</code></li>
 <li>标题文字与输入框距离<code>8px</code>，内部文字与输入框左侧间距<code>6px</code></li>
 <li>输入框带控件时，控件容器尺寸<code>16*16px</code>，与输入框右边距<code>2px</code></li>
 </ul>
@@ -670,49 +686,56 @@
 <td style="text-align:left">缺省态</td>
 <td>#6D6F73</td>
 <td>-</td>
-<td></td>
-<td></td>
+<td>#BFBFBF</td>
+<td>-</td>
 </tr>
 <tr>
 <td style="text-align:left">默认态</td>
 <td>#FFFFFF</td>
 <td>填充<code>#000000</code>  描边<code>#4C4D52</code> <code>1px</code> 不带圆角</td>
-<td></td>
-<td></td>
+<td>#323232</td>
+<td>填充<code>#FFFFFF</code>描边<code>#B7B7B7</code> <code>1px</code> 不带圆角</td>
 </tr>
 <tr>
 <td style="text-align:left">悬停态</td>
 <td>#6D6F73</td>
 <td>填充<code>#000000</code> 描边<code>#0086E6</code> <code>1px</code> 不带圆角</td>
-<td></td>
-<td></td>
+<td>#BFBFBF</td>
+<td>填充<code>#FFFFFF</code>描边<code>#0086E6</code> <code>1px</code> 不带圆角</td>
 </tr>
 <tr>
 <td style="text-align:left">点击态</td>
 <td>#FFFFFF</td>
 <td>填充<code>#000000</code>  描边<code>#0086E6</code> <code>1px</code> 不带圆角</td>
-<td></td>
-<td></td>
+<td>#323232</td>
+<td>填充<code>#FFFFFF</code>描边<code>#0086E6</code> <code>1px</code> 不带圆角</td>
 </tr>
 <tr>
 <td style="text-align:left">禁用态</td>
 <td>#555659</td>
-<td>填充<code>#25262A</code>  无描边 不带圆角</td>
-<td></td>
-<td></td>
+<td>填充<code>#1C1D1F</code>  无描边 不带圆角</td>
+<td>#999999</td>
+<td>填充<code>#DEDEDE</code>  无描边 不带圆角</td>
+</tr>
+<tr>
+<td style="text-align:left">只读态</td>
+<td>#FFFFFF</td>
+<td>填充<code>#1C1D1F</code>  无描边 不带圆角</td>
+<td>#323232</td>
+<td>填充<code>#DEDEDE</code>  无描边 不带圆角</td>
 </tr>
 <tr>
 <td style="text-align:left">错误态</td>
 <td>#E94242</td>
 <td>填充<code>#000000</code>  描边<code>#E94242</code>    <code>1px</code> 不带圆角</td>
-<td></td>
+<td>#E94242</td>
+<td>填充<code>#FFFFFF  描边</code>#E94242<code>1px</code> 不带圆角</td>
 </tr>
 </tbody>
 </table>
-<blockquote>
 <p><img src="Confluence.assets/Artboard.jpg" alt="Artboard"></p>
-</blockquote>
-<h2 id="-">弹出框样式</h2>
+<p><img src="Confluence.assets/弹窗输入框-1.png" alt="弹窗输入框-1"></p>
+<h2 id="-">下拉框样式</h2>
 <ul>
 <li>与输入框间距<code>1px</code>，宽度跟随输入框尺寸，高度随内容扩展最大高度不超过<code>180px</code>，大于此需要加<code>紧凑型滚动条</code></li>
 <li>每项占位区域高度<code>24px</code></li>
@@ -754,45 +777,46 @@
 </table>
 <p><img src="Confluence.assets/下拉框2.png" alt="Artboard"></p>
 <h2 id="-">典型案例</h2>
-<blockquote>
-<p><strong>带前缀和后缀输入框</strong>    <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
-<p><img src="Confluence.assets/Artboard-1405631.jpg" alt="Artboard"></p>
-</blockquote>
-<blockquote>
-<p><strong>搜索框</strong>   <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
+<h3 id="-"><strong>带前缀和后缀输入框</strong></h3>
 <ul>
-<li>按钮控件请参阅<u><a href="">Buttom</a></u>控件说明</li>
+<li><a href="Confluence.assets/输入框">下载控件</a></li>
+<li>控件容器16*16px</li>
+</ul>
+<p><img src="Confluence.assets/Artboard-1405631.jpg" alt="Artboard"></p>
+<p><img src="Confluence.assets/弹窗输入框-2.png" alt="弹窗输入框-2" style="zoom:200%;" /></p>
+<h3 id="-"><strong>搜索框</strong></h3>
+<ul>
+<li><p><a href="Confluence.assets/输入框">下载控件</a></p>
+</li>
+<li><p>按钮控件请参阅<u><a href="">Buttom</a></u>控件说明</p>
+</li>
 </ul>
 <p><img src="Confluence.assets/3.jpg" alt="3"></p>
-</blockquote>
-<blockquote>
-<p><strong>输入框组合</strong></p>
+<p><img src="Confluence.assets/弹窗输入框-3.png" alt="弹窗输入框-3" style="zoom:150%;" /></p>
+<h3 id="-"><strong>输入框组合</strong></h3>
 <ul>
 <li>组合间距分为两种：<code>2px</code>、<code>0px</code></li>
 </ul>
 <p><img src="Confluence.assets/4-1411302.jpg" alt="4"></p>
-</blockquote>
-<blockquote>
-<p><strong>带步进控件</strong> <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
+<h3 id="-"><strong>带步进控件</strong></h3>
+<ul>
+<li><a href="Confluence.assets/输入框">下载控件</a></li>
+</ul>
 <p><img src="Confluence.assets/2-1410259.jpg" alt="2"></p>
-</blockquote>
-<blockquote>
-<p><strong>文本域</strong></p>
+<p><img src="Confluence.assets/弹窗输入框-4.png" alt="弹窗输入框-4"></p>
+<h3 id="-"><strong>文本域</strong></h3>
 <ul>
 <li>用于多行输入</li>
-<li>有下角需要加上控件 <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></li>
+<li>有下角需要加上控件 <a href="Confluence.assets/输入框">下载控件</a></li>
 </ul>
 <p><img src="Confluence.assets/5-1412459.jpg" alt="5"></p>
-</blockquote>
-<blockquote>
-<p><strong>下拉输入框</strong></p>
+<h3 id="-"><strong>下拉输入框</strong></h3>
 <ul>
-<li>用于选择输入，控件<a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">箭头下载</a></li>
+<li>用于选择输入，控件<a href="Confluence.assets/输入框">箭头下载</a></li>
 </ul>
 <p><img src="Confluence.assets/下拉框.png" alt="下拉框"></p>
-</blockquote>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
+<p><a href="Confluence.assets/输入框">下载控件</a></p>
 <h1 id="modal-">Modal 弹窗</h1>
 <h2 id="-">何时使用</h2>
 <ul>
@@ -848,13 +872,13 @@
 <tr>
 <td>Tips_iocn</td>
 <td>24px*24px</td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/弹窗">点击下载icon</a></td>
+<td><a href="Confluence.assets/弹窗">点击下载icon</a></td>
 <td></td>
 </tr>
 <tr>
 <td>Trade_icon</td>
 <td>88px*88px</td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/弹窗">点击下载icon</a></td>
+<td><a href="Confluence.assets/弹窗">点击下载icon</a></td>
 <td></td>
 </tr>
 <tr>
@@ -1008,8 +1032,8 @@
 <tr>
 <td>箭头默认</td>
 <td>8px*8px</td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/滚动条">下载控件</a></td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/滚动条">下载控件</a></td>
+<td><a href="Confluence.assets/滚动条">下载控件</a></td>
+<td><a href="Confluence.assets/滚动条">下载控件</a></td>
 <td style="text-align:left">--</td>
 <td>--</td>
 </tr>
@@ -1041,7 +1065,7 @@
 <h3 id="-3px-">紧凑型（3px黑-弹窗）</h3>
 <p><img src="Confluence.assets/控件 copy 3.png" alt="控件 copy 3"></p>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/滚动条">下载控件</a></p>
+<p><a href="Confluence.assets/滚动条">下载控件</a></p>
 <h1 id="button-">Button 按钮</h1>
 <h2 id="-">何时使用</h2>
 <p>标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑</p>
@@ -1095,6 +1119,13 @@
 <td>悬停</td>
 <td>#4D95E8</td>
 <td>#4D95E8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>焦点</td>
+<td>尺寸80px*28px 无填充  描边1px #FFF</td>
+<td>尺寸80px*28px 无填充  描边1px #000</td>
 <td></td>
 <td></td>
 </tr>
@@ -1274,6 +1305,69 @@
 <p><img src="Confluence.assets/控件 copy 7.png" alt="控件 copy 7"></p>
 <p><img src="Confluence.assets/控件 copy 8.png" alt="控件 copy 8"></p>
 <p><img src="Confluence.assets/控件 copy 9.png" alt="控件 copy 9"></p>
+<h1 id="treeselect-">TreeSelect 树选择</h1>
+<h2 id="-">何时使用</h2>
+<ul>
+<li>类似 Select 的选择控件，可选择的数据结构是一个树形结构时，可以使用 TreeSelect，例如公司层级、学科系统、分类目录等等。</li>
+</ul>
+<h2 id="-">基本</h2>
+<ul>
+<li><p>我们提供两种常见的形式：默认树、带选择控件树</p>
+</li>
+<li><p>箭头容器尺寸12*12px</p>
+</li>
+<li>文字统一13px，左对齐</li>
+<li>对齐规则：箭头与文字之间8px；箭头与多选框4px；多选框与文字8px；</li>
+</ul>
+<p><img src="Confluence.assets/树选择-1.png" alt="树选择-1"></p>
+<p><img src="Confluence.assets/树选择-2.png" alt="树选择-2"></p>
+<h2 id="-">尺寸视觉快速查阅</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>黑色</th>
+<th>弹窗</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文字</td>
+<td>#FFFFFF</td>
+<td>#323232</td>
+<td></td>
+</tr>
+<tr>
+<td>内容区</td>
+<td>固定高度24px</td>
+<td>固定高度24px</td>
+<td></td>
+</tr>
+<tr>
+<td>内容区选中</td>
+<td>#20477B</td>
+<td>#BBDEFF</td>
+<td></td>
+</tr>
+<tr>
+<td>内容区悬浮</td>
+<td>#46494F</td>
+<td>#BBCCDC</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img src="Confluence.assets/树选择-3.png" alt="树选择-3"></p>
+<p><img src="Confluence.assets/树选择-4.png" alt="树选择-4"></p>
+<h2 id="-">控件下载</h2>
+<p>黑色及弹窗公用一套控件箭头</p>
+<p><a href="Confluence.assets/树选择">下载控件</a></p>
 
           	</article>
         </div>
