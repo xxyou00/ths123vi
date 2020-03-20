@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>搜索放大镜蓝色背景上</title>
+    <desc>Created with Sketch.</desc>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-654.000000, -1019.000000)">
+            <g id="弹窗输入框-3_export" transform="translate(22.000000, 994.000000)">
+                <g id="弹窗输入框-3">
+                    <g id="Group-24" transform="translate(18.000000, 18.000000)">
+                        <g id="搜索放大镜蓝色背景上_export" transform="translate(614.000000, 7.000000)">
+                            <g id="搜索-小">
+                                <g>
+                                    <path d="M15.99,0.01 L15.99,15.99 L0.01,15.99 L0.01,0.01 L15.99,0.01 Z M16,0 L0,0 L0,16 L16,16 L16,0 Z" id="Shape" fill="#000000" fill-rule="nonzero" opacity="0"></path>
+                                    <g id="搜索" transform="translate(1.000000, 1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                        <path d="M13.157,12.449 L10.293,9.585 C12.091,7.425 12.002,4.223 9.975,2.196 C7.828,0.048 4.346,0.048 2.197,2.196 C0.05,4.344 0.05,7.826 2.197,9.975 C4.224,12.001 7.426,12.091 9.587,10.292 L12.45,13.155 L13.157,12.449 Z M2.904,9.268 C1.147,7.51 1.147,4.662 2.904,2.904 C4.661,1.147 7.51,1.147 9.268,2.904 C11.026,4.661 11.026,7.51 9.268,9.268 C7.51,11.026 4.661,11.025 2.904,9.268 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
