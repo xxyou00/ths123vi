@@ -78,7 +78,12 @@
 <h3 id="2020-3-27">2020.3.27</h3>
 <ol>
 <li>新增Tabs 标签导航栏；详见Tabs 标签导航栏</li>
-<li>扩展补充Sider侧边栏；修改悬停态底色；修改悬停态文字颜色；详见Sider侧边栏</li>
+<li>扩展补充Sider侧边栏；修改悬停态底色；修改悬停态文字颜色；新增全局折叠收起；详见Sider侧边栏</li>
+</ol>
+<h3 id="2020-4-3">2020.4.3</h3>
+<ol>
+<li>新增右键菜单</li>
+<li>新增数据统一格式，统一数据的展示形式</li>
 </ol>
 <h1 id="layout-">Layout布局</h1>
 <p>协助进行页面级整体布</p>
@@ -191,7 +196,7 @@
 </tbody>
 </table>
 <h2 id="icon">ICON</h2>
-<p> <u><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/顶部栏">下载点击icon</a></u></p>
+<p> <u><a href="Confluence.assets/顶部栏">下载点击icon</a></u></p>
 <table>
 <thead>
 <tr>
@@ -249,7 +254,7 @@
 </tbody>
 </table>
 <h2 id="icon">ICON</h2>
-<p> <u><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/底部栏">下载点击icon</a></u></p>
+<p> <u><a href="Confluence.assets/底部栏">下载点击icon</a></u></p>
 <table>
 <thead>
 <tr>
@@ -265,7 +270,7 @@
 <td>黑版</td>
 <td>16px*16px</td>
 <td>#8E8E8E</td>
-<td>#D2D2D3</td>
+<td><font color=red>#D2D2D3</font></td>
 <td>#616266</td>
 </tr>
 <tr>
@@ -277,33 +282,60 @@
 </tbody>
 </table>
 <h1 id="sider-">Sider 侧边栏</h1>
-<h2 id="-">菜单项</h2>
+<h2 id="-">组件概述</h2>
+<p><strong>Layout：</strong>容器，用于菜单项</p>
+<p><strong>Menu-title</strong>：菜单分组标题，自带默认样式</p>
+<p><strong>Menu</strong>：菜单项，自带默认样式</p>
+<p><strong>Tool</strong>：折叠收起操作栏</p>
+<h2 id="-">尺寸视觉快速查阅</h2>
 <table>
 <thead>
 <tr>
-<th>版本</th>
+<th>名称</th>
 <th>尺寸</th>
-<th>上下间距</th>
-<th>默认颜色</th>
-<th>悬停颜色</th>
-<th>选中颜色</th>
+<th>视觉（黑）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>黑</td>
-<td>高度28px</td>
-<td>0px</td>
+<td>Layout 容器</td>
+<td>默认宽度150px</td>
 <td>#2B2B2B</td>
+</tr>
+<tr>
+<td>Menu-title菜单分组标题</td>
+<td>默认高度28px</td>
+<td>#333333</td>
+</tr>
+<tr>
+<td>Menu 菜单项 默认</td>
+<td>--</td>
+<td>#2B2B2B</td>
+</tr>
+<tr>
+<td>Menu 菜单项 悬停</td>
+<td>--</td>
 <td>#46494F</td>
+</tr>
+<tr>
+<td>Menu 菜单项 选中</td>
+<td>--</td>
 <td>#0086E6</td>
 </tr>
 <tr>
-<td>蓝</td>
-<td>高度28px</td>
-<td></td>
-<td></td>
-<td></td>
+<td>Tool 操作栏 默认</td>
+<td>默认宽度150px，高度28px</td>
+<td>#323337</td>
+</tr>
+<tr>
+<td>Tool 操作栏 悬停</td>
+<td>默认宽度150px，高度28px</td>
+<td>#43454A</td>
+</tr>
+<tr>
+<td>Tool 操作栏 点击</td>
+<td>默认高度28px</td>
+<td>#252629</td>
 </tr>
 </tbody>
 </table>
@@ -327,14 +359,22 @@
 <td>#FFFFFF</td>
 </tr>
 <tr>
-<td>蓝版</td>
-<td>13px</td>
+<td></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="-">实例</h2>
+<h3 id="-">折叠收起</h3>
+<ul>
+<li>操作栏与容器之间2px ，分别添加1px #0D0D0D； 1px #4C4B4B 2条线</li>
+<li>折叠状态时，点击菜单项或者操作栏均可展开菜单</li>
+<li>折叠时容器尺寸变为宽度28px</li>
+<li>折叠时菜单项文字竖排，选中尺寸宽度20px，圆角2px；四周间距4px</li>
+</ul>
+<p><img src="Confluence.assets/测导航-3 copy.png" alt="测导航-3 copy"></p>
 <h3 id="-">一级导航项</h3>
 <ul>
 <li>文字左边距14px</li>
@@ -642,7 +682,7 @@
 </ul>
 <p><img src="Confluence.assets/Group 19.jpg" alt="Group 19"></p>
 <h3 id="-"><strong>带排序表格</strong></h3>
-<p>  <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/表格">控件下载</a></p>
+<p>  <a href="Confluence.assets/表格">控件下载</a></p>
 <ul>
 <li>带有排序控件的字段即可进行排序操作，悬浮时背景色#20262A   选中后背景色#293136</li>
 </ul>
@@ -674,21 +714,113 @@
 <p><img src="Confluence.assets/弹窗表格-5.png" alt="弹窗表格-5"></p>
 <h3 id="-">带浮窗筛选表格</h3>
 <ul>
-<li><p>浮窗：尺寸110px*60px  底色#2B2B2B  描边 1px #434448</p>
-</li>
-<li><p>check栏：尺寸24px*58px 底色#141415 </p>
-</li>
-<li><p>文字：14px #FFFFFF</p>
-</li>
+<li>样式详情参考<code>右键菜单模块</code></li>
 </ul>
 <p><img src="Confluence.assets/Group 11.jpg" alt="Group 11"></p>
-<ul>
-<li>浮窗：尺寸110px*60px  底色#FFFFFF  描边 1px ##C0C0C0</li>
-<li>check栏：尺寸24px*58px 底色#ECECEC</li>
-<li>文字：14px #323232</li>
-</ul>
 <p><img src="Confluence.assets/弹窗表格-6.png" alt="弹窗表格-6"></p>
-<h1 id="-">数据格式</h1>
+<h1 id="context-menu-">Context Menu右健菜单</h1>
+<h2 id="-">何时使用</h2>
+<ul>
+<li>提供右健辅助功能操作</li>
+</ul>
+<h2 id="-">组件概述</h2>
+<p><strong>Layout</strong>：底层容器，用于放置内容</p>
+<p><strong>Left</strong>：左侧状态区域，用于放置图标或选中状态等</p>
+<p><strong>Menu</strong>：菜单项区域</p>
+<p><strong>Line：</strong>边框及分组线</p>
+<h2 id="-">尺寸视觉快速查阅</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>尺寸</th>
+<th>视觉（黑）</th>
+<th>视觉（弹窗）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Layout 底层容器</td>
+<td>高度24px</td>
+<td>填充#2B2B2B；内描边1px #434448</td>
+<td>填充#F5F5F5；内描边1px #CCCCCC</td>
+</tr>
+<tr>
+<td>Left 左侧状态区域</td>
+<td>固定宽度24px</td>
+<td>填充#141415</td>
+<td>填充#E3E3E3</td>
+</tr>
+<tr>
+<td>Menu 菜单项区域-默认</td>
+<td>固定高度28px</td>
+<td>无填充色</td>
+<td>无填充色</td>
+</tr>
+<tr>
+<td>Menu 菜单项区域-悬停</td>
+<td>固定高度28px</td>
+<td>填充色 #20477B</td>
+<td>填充色 #BBDEFF</td>
+</tr>
+<tr>
+<td>Line 边框及分组线</td>
+<td>1px</td>
+<td>#434448</td>
+<td>#CCCCCC</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">文字</h2>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>字号</th>
+<th>默认颜色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑版</td>
+<td>13px</td>
+<td>#FFFFFF</td>
+</tr>
+<tr>
+<td>弹窗</td>
+<td>13px</td>
+<td>#323232</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">典型实例</h2>
+<h3 id="-">默认</h3>
+<ul>
+<li>菜单项顶部与底部与容器间距2px</li>
+<li>菜单项与左侧区域间距10px</li>
+</ul>
+<p><img src="Confluence.assets/右键菜单-1.png" alt="右键菜单-1"></p>
+<p><img src="Confluence.assets/右键菜单-1 copy.png" alt="右键菜单-1 copy"></p>
+<h3 id="-">分组</h3>
+<p>分割线上下间距2px</p>
+<p><img src="Confluence.assets/右键菜单-3.png" alt="右键菜单-3"></p>
+<p><img src="Confluence.assets/右键菜单-2 copy.png" alt="右键菜单-2 copy"></p>
+<h3 id="-">带图标</h3>
+<ul>
+<li>图标占位区域16*16px</li>
+</ul>
+<p><img src="Confluence.assets/右键菜单-2.png" alt="右键菜单-2"></p>
+<p><img src="Confluence.assets/右键菜单-2 copy-5550122.png" alt="右键菜单-2 copy"></p>
+<h3 id="-">多级</h3>
+<ul>
+<li>多级弹出菜单样式于默认保持一致</li>
+<li>箭头占位12px*12x，右间距8px</li>
+<li>多级菜单叠加于上级菜单上，错位距离6px</li>
+</ul>
+<p><img src="Confluence.assets/右键菜单-4.png" alt="右键菜单-4"></p>
+<p><img src="Confluence.assets/右键菜单-4 copy.png" alt="右键菜单-4 copy"></p>
+<h2 id="-">图标下载</h2>
+<h1 id="data-format-">Data format 数据统一格式</h1>
 <h2 id="-">设计目标</h2>
 <p>规范数据表达，保证直观准确一致地理解数据</p>
 <h2 id="-">类型</h2>
@@ -782,7 +914,7 @@
 </tbody>
 </table>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/单选控件">点击下载</a></p>
+<p><a href="Confluence.assets/单选控件">点击下载</a></p>
 <h1 id="checkbox-">Checkbox多选框</h1>
 <h2 id="-">何时使用</h2>
 <ul>
@@ -823,7 +955,7 @@
 </tbody>
 </table>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/多选控件">点击下载</a></p>
+<p><a href="Confluence.assets/多选控件">点击下载</a></p>
 <h1 id="input-">Input输入框</h1>
 <p>通过鼠标或键盘输入内容，是最基础的表单域的包装</p>
 <h2 id="-">何时使用</h2>
@@ -947,14 +1079,14 @@
 <h2 id="-">典型案例</h2>
 <h3 id="-"><strong>带前缀和后缀输入框</strong></h3>
 <ul>
-<li><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></li>
+<li><a href="Confluence.assets/输入框">下载控件</a></li>
 <li>控件容器16*16px</li>
 </ul>
 <p><img src="Confluence.assets/Artboard-1405631.jpg" alt="Artboard"></p>
 <p><img src="Confluence.assets/弹窗输入框-2.png" alt="弹窗输入框-2" style="zoom:200%;" /></p>
 <h3 id="-"><strong>搜索框</strong></h3>
 <ul>
-<li><p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
+<li><p><a href="Confluence.assets/输入框">下载控件</a></p>
 </li>
 <li><p>按钮控件请参阅<u><a href="">Buttom</a></u>控件说明</p>
 </li>
@@ -968,23 +1100,23 @@
 <p><img src="Confluence.assets/4-1411302.jpg" alt="4"></p>
 <h3 id="-"><strong>带步进控件</strong></h3>
 <ul>
-<li><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></li>
+<li><a href="Confluence.assets/输入框">下载控件</a></li>
 </ul>
 <p><img src="Confluence.assets/2-1410259.jpg" alt="2"></p>
 <p><img src="Confluence.assets/弹窗输入框-4.png" alt="弹窗输入框-4"></p>
 <h3 id="-"><strong>文本域</strong></h3>
 <ul>
 <li>用于多行输入</li>
-<li>有下角需要加上控件 <a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></li>
+<li>有下角需要加上控件 <a href="Confluence.assets/输入框">下载控件</a></li>
 </ul>
 <p><img src="Confluence.assets/5-1412459.jpg" alt="5"></p>
 <h3 id="-"><strong>下拉输入框</strong></h3>
 <ul>
-<li>用于选择输入，控件<a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">箭头下载</a></li>
+<li>用于选择输入，控件<a href="Confluence.assets/输入框">箭头下载</a></li>
 </ul>
 <p><img src="Confluence.assets/下拉框.png" alt="下拉框"></p>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/输入框">下载控件</a></p>
+<p><a href="Confluence.assets/输入框">下载控件</a></p>
 <h1 id="modal-">Modal 弹窗</h1>
 <h2 id="-">何时使用</h2>
 <ul>
@@ -1040,13 +1172,13 @@
 <tr>
 <td>Tips_iocn</td>
 <td>24px*24px</td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/弹窗">点击下载icon</a></td>
+<td><a href="Confluence.assets/弹窗">点击下载icon</a></td>
 <td></td>
 </tr>
 <tr>
 <td>Trade_icon</td>
 <td>88px*88px</td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/弹窗">点击下载icon</a></td>
+<td><a href="Confluence.assets/弹窗">点击下载icon</a></td>
 <td></td>
 </tr>
 <tr>
@@ -1200,8 +1332,8 @@
 <tr>
 <td>箭头默认</td>
 <td>8px*8px</td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/滚动条">下载控件</a></td>
-<td><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/滚动条">下载控件</a></td>
+<td><a href="Confluence.assets/滚动条">下载控件</a></td>
+<td><a href="Confluence.assets/滚动条">下载控件</a></td>
 <td style="text-align:left">--</td>
 <td>--</td>
 </tr>
@@ -1233,7 +1365,7 @@
 <h3 id="-3px-">紧凑型（3px黑-弹窗）</h3>
 <p><img src="Confluence.assets/控件 copy 3.png" alt="控件 copy 3"></p>
 <h2 id="-">控件下载</h2>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/滚动条">下载控件</a></p>
+<p><a href="Confluence.assets/滚动条">下载控件</a></p>
 <h1 id="button-">Button 按钮</h1>
 <h2 id="-">何时使用</h2>
 <p>标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑</p>
@@ -1535,7 +1667,7 @@
 <p><img src="Confluence.assets/树选择-4.png" alt="树选择-4"></p>
 <h2 id="-">控件下载</h2>
 <p>黑色及弹窗公用一套控件箭头</p>
-<p><a href="https://github.com/xxyou00/ths123vi/tree/master/Confluence.assets/树选择">下载控件</a></p>
+<p><a href="Confluence.assets/树选择">下载控件</a></p>
 
           	</article>
         </div>
