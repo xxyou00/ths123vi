@@ -102,6 +102,14 @@
 <li>新增表格表头拖动样式，详见 Table表格-&gt;典型实例-&gt;表头拖动</li>
 <li>修改table表格-&gt;典型实例-&gt;带排序表格 中排序的箭头统一放在左边，距离左边距6px，并且颜色统一为#0086E6</li>
 </ol>
+<p>2020.5.13</p>
+<ol>
+<li>输入框键盘精灵下拉框宽度不够</li>
+<li>Sider 侧边栏底色及收缩控件位置调整</li>
+<li>二级tab选中态颜色调整</li>
+</ol>
+<h3 id="-v2-0">大本版更新 V2.0</h3>
+<p>弹窗浅色的先不动，不用看，等蓝色版本整理好直接复用蓝色版本样式</p>
 <h2 id="layout-">Layout布局</h2>
 <p>协助进行页面级整体布</p>
 <h3 id="-">组件概述</h3>
@@ -124,17 +132,17 @@
 <tr>
 <td>Header</td>
 <td>高度 32px，  宽度：1440px</td>
-<td>#161616</td>
+<td>#313133</td>
 </tr>
 <tr>
 <td>Sider</td>
 <td>宽度150px ， 拓展150px+8n</td>
-<td>#2B2B2B</td>
+<td>#333333</td>
 </tr>
 <tr>
 <td>Footer</td>
 <td>高度24px</td>
-<td>#161616</td>
+<td>#1D1D1F</td>
 </tr>
 <tr>
 <td>Content1</td>
@@ -144,23 +152,17 @@
 <tr>
 <td>Content2</td>
 <td>-</td>
-<td>#2B2B2B</td>
+<td>#404040</td>
 </tr>
 <tr>
-<td>Space</td>
+<td>Space（顶部与底部也需要留2px）</td>
 <td>2px</td>
-<td>#4C4C4F</td>
+<td>#1D1D1F</td>
 </tr>
 </tbody>
 </table>
 <h3 id="-">典型的页面布局</h3>
-<blockquote>
-<p>上中下布局<img src="Confluence.assets/Slice.jpg" alt="Slice"></p>
-</blockquote>
-<blockquote>
-<p>顶部-侧边布局-通栏</p>
-<p><img src="Confluence.assets/单账户-1 copy 3.jpg" alt="单账户-1 copy 3"></p>
-</blockquote>
+<p><img src="Confluence.assets/Slice.jpg" alt="Slice"></p>
 <h2 id="header-">Header顶部栏</h2>
 <h3 id="logo">LOGO</h3>
 <table>
@@ -194,8 +196,8 @@
 <tr>
 <td>黑版</td>
 <td>14px</td>
-<td>#BDC0C7</td>
-<td>#F7FAFF</td>
+<td>#C4C4C4</td>
+<td>#D9D9D9</td>
 <td>#FFFFFF 加粗Semibold</td>
 </tr>
 </tbody>
@@ -244,7 +246,7 @@
 <tr>
 <td>黑版</td>
 <td>12px</td>
-<td>#BDC0C7</td>
+<td>#CCCCCC</td>
 </tr>
 </tbody>
 </table>
@@ -289,12 +291,12 @@
 <tr>
 <td>Layout 容器</td>
 <td>默认宽度150px</td>
-<td>#2B2B2B</td>
+<td>#333333</td>
 </tr>
 <tr>
 <td>Menu-title菜单分组标题</td>
-<td>默认高度28px</td>
-<td>#333333</td>
+<td>默认高度26px</td>
+<td>#3B3B3B</td>
 </tr>
 <tr>
 <td>Menu 菜单项 默认</td>
@@ -309,21 +311,21 @@
 <tr>
 <td>Menu 菜单项 选中</td>
 <td>--</td>
-<td>#0086E6</td>
+<td>#0068B3</td>
 </tr>
 <tr>
 <td>Tool 操作栏 默认</td>
-<td>默认宽度150px，高度28px</td>
-<td>#323337</td>
+<td>默认宽度150px，高度26px</td>
+<td>#383838</td>
 </tr>
 <tr>
 <td>Tool 操作栏 悬停</td>
-<td>默认宽度150px，高度28px</td>
+<td>默认宽度150px，高度26px</td>
 <td>#43454A</td>
 </tr>
 <tr>
 <td>Tool 操作栏 点击</td>
-<td>默认高度28px</td>
+<td>默认高度26px</td>
 <td>#252629</td>
 </tr>
 </tbody>
@@ -352,10 +354,10 @@
 <h3 id="-">实例</h3>
 <h4 id="-">折叠收起</h4>
 <ul>
-<li>操作栏与容器之间2px ，分别添加1px #0D0D0D； 1px #4C4B4B 2条线</li>
+<li>操作栏与容器之间1px ，分割线添加1px #0D0D0D</li>
 <li>折叠状态时，点击菜单项或者操作栏均可展开菜单</li>
-<li>折叠时容器尺寸变为宽度28px</li>
-<li>折叠时菜单项文字竖排，选中尺寸宽度20px，圆角2px；四周间距4px</li>
+<li>折叠时容器尺寸变为宽度26px</li>
+<li>折叠时菜单项文字竖排，选中尺寸宽度26px，文字与容器上下8px间距；</li>
 </ul>
 <p><img src="Confluence.assets/测导航-3 copy.png" alt="测导航-3 copy"></p>
 <h4 id="-">一级导航项</h4>
@@ -366,7 +368,7 @@
 <p><img src="Confluence.assets/测导航-1.png" alt="测导航-1"></p>
 <h4 id="-">二级导航项</h4>
 <ul>
-<li>一级导航标题底色#3333333，高度统一为28px，不可选中点击</li>
+<li>一级导航标题底色#3B3B3B，高度统一为26px，不可选中点击</li>
 <li>一级导航标题文字13px；颜色#FFFFFF</li>
 </ul>
 <p><img src="Confluence.assets/测导航-2.png" alt="测导航-2"></p>
@@ -401,44 +403,38 @@
 <th>名称</th>
 <th>尺寸</th>
 <th>视觉（黑）</th>
-<th>视觉（弹窗）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Layout</td>
 <td>固定高度30px</td>
-<td>#161616</td>
-<td></td>
+<td>#333333</td>
 </tr>
 <tr>
 <td>Tab默认</td>
-<td>固定高度24px，默认宽度80px</td>
-<td>#161616</td>
-<td></td>
+<td>固定高度30px，默认宽度80px</td>
+<td>#333333</td>
 </tr>
 <tr>
 <td>Tab悬停</td>
 <td>--</td>
-<td>#454549</td>
-<td></td>
+<td>#494949</td>
 </tr>
 <tr>
 <td>Tab选中</td>
 <td>--</td>
-<td>#58585C</td>
-<td></td>
+<td>#5C5C5C</td>
 </tr>
 <tr>
 <td>Tab禁用</td>
 <td>--</td>
-<td>--</td>
-<td></td>
+<td>#333333</td>
 </tr>
 <tr>
 <td>Line选项分割线</td>
-<td>高度24px；宽度1px</td>
-<td>渐变#161616 透明度 0% -&gt;3D3D40 透明度100%</td>
+<td>高度30px；宽度1px</td>
+<td>#0D0D0D</td>
 </tr>
 </tbody>
 </table>
@@ -451,24 +447,20 @@
 <tr>
 <th></th>
 <th>视觉（黑）</th>
-<th>视觉（弹窗）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>默认</td>
 <td>#A6A9AE</td>
-<td></td>
 </tr>
 <tr>
 <td>悬停</td>
 <td>#DBDBDB</td>
-<td></td>
 </tr>
 <tr>
 <td>选中</td>
 <td>#FFFFFF</td>
-<td></td>
 </tr>
 <tr>
 <td>禁用</td>
@@ -477,12 +469,7 @@
 </tbody>
 </table>
 <h4 id="-">实例</h4>
-<ul>
-<li>选中项框上半部分 带2px圆角</li>
-<li>第一项距容器2px间距</li>
-</ul>
 <p><img src="Confluence.assets/Group 10.png" alt="Group 10"></p>
-<p><img src="Confluence.assets/控件-5705427.png" alt="控件"></p>
 <h3 id="-tabs">二级Tabs</h3>
 <h4 id="-">组件概述</h4>
 <ul>
@@ -504,31 +491,31 @@
 <tr>
 <td>Layout</td>
 <td>固定高度26px</td>
-<td>填充#2B2B2B</td>
+<td>填充#333333</td>
 <td>填充#EBEDF0</td>
 </tr>
 <tr>
 <td>Tab默认</td>
 <td>固定高度26px，宽度默认最小68px</td>
-<td>填充 #2B2B2B</td>
+<td>填充 #333333</td>
 <td>填充 #EBEDF0</td>
 </tr>
 <tr>
 <td>Tab悬停</td>
 <td>--</td>
-<td>填充#46494F</td>
+<td>填充#4D4D4D</td>
 <td>填充 ##D9EAFA</td>
 </tr>
 <tr>
 <td>Tab选中</td>
 <td>--</td>
-<td>填充#335179</td>
+<td>填充#005694</td>
 <td>填充 #CBE5FF</td>
 </tr>
 <tr>
 <td>Tab禁用</td>
 <td>--</td>
-<td>填充 #2B2B2B</td>
+<td>填充 #333333</td>
 <td>填充 #EBEDF0</td>
 </tr>
 <tr>
@@ -598,17 +585,15 @@
 </tr>
 </tbody>
 </table>
+<h4 id="-">实例</h4>
+<ul>
+<li>默认栏底部1px内分割线 #005694</li>
+</ul>
 <p><img src="Confluence.assets/tab-1.png" alt="tab-1"></p>
 <p><img src="Confluence.assets/tab-1 copy 3.png" alt="tab-1 copy 3"></p>
 <p><img src="Confluence.assets/tab-1 白.png" alt="tab-1 白"></p>
 <p><img src="Confluence.assets/tab-1 白 copy.png" alt="tab-1 白 copy"></p>
-<h4 id="-">实例组合使用</h4>
-<h5 id="-">在标题栏下</h5>
-<p><img src="Confluence.assets/tab-1 copy.png" alt="tab-1 copy"></p>
-<p><img src="Confluence.assets/tab-1 白 copy 2.png" alt="tab-1 白 copy 2"></p>
-<h5 id="-">在工具栏上</h5>
-<p><img src="Confluence.assets/tab-1 copy 2.png" alt="tab-1 copy 2"></p>
-<p><img src="Confluence.assets/tab-1 白 copy 3.png" alt="tab-1 白 copy 3"></p>
+<p>#### </p>
 <h5 id="-">在操作区域上</h5>
 <ul>
 <li>竖向买入卖出tab宽度为30px，比横向的26px略大</li>
@@ -626,7 +611,6 @@
 <h3 id="-">组件概述</h3>
 <p><strong>Header：</strong>表头容器，用于放置表头字段文字</p>
 <p><strong>Columns</strong>：表格项容器，自带默认样式</p>
-<p><strong>Columns-space：</strong>表格项容器间隔，自带默认样式</p>
 <p><strong>Line：</strong>分割线，用于表格内数据项的分割，包括表头表项都使用同一种</p>
 <h3 id="-">尺寸视觉快速查阅</h3>
 <table>
@@ -652,12 +636,6 @@
 <td>#FFFFFF</td>
 </tr>
 <tr>
-<td>Columns-space 间隔</td>
-<td>高度22px</td>
-<td>#161517</td>
-<td>#F5F5F5</td>
-</tr>
-<tr>
 <td>Columns-hover 悬浮</td>
 <td>高度22px</td>
 <td>#46494F</td>
@@ -666,7 +644,7 @@
 <tr>
 <td>Columns-pressed 选中</td>
 <td>高度22px</td>
-<td>#1C3E6B</td>
+<td>#005694</td>
 <td>#BBDEFF</td>
 </tr>
 <tr>
@@ -839,7 +817,7 @@
 <tr>
 <td>Menu 菜单项区域-悬停</td>
 <td>固定高度28px</td>
-<td>填充色 #20477B</td>
+<td>填充色 #005694</td>
 <td>填充色 #BBDEFF</td>
 </tr>
 <tr>
@@ -963,6 +941,43 @@
 <p><img src="Confluence.assets/规范-3-2099681.jpg" alt="规范-3"></p>
 </li>
 </ul>
+<h3 id="-">尺寸视觉快速查阅</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>视觉（黑）</th>
+<th>视觉（弹窗）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>默认</td>
+<td>填充#2E2F32；内描边1px #4C4D52</td>
+<td>填充#F7F7F7；内描边1px #C9C9C9</td>
+</tr>
+<tr>
+<td>悬停</td>
+<td>描边#0068B3</td>
+<td>描边#0070E0</td>
+</tr>
+<tr>
+<td>Menu 菜单项区域-默认</td>
+<td>描边、填充#0068B3</td>
+<td>描边、填充#0070E0</td>
+</tr>
+<tr>
+<td>选中不可用</td>
+<td>填充色 #005694</td>
+<td>底色填充#B5B5B5 小圆点 #EBEBEB</td>
+</tr>
+<tr>
+<td>不可用</td>
+<td>#25262A</td>
+<td>#B5B5B5</td>
+</tr>
+</tbody>
+</table>
 <h3 id="-">文字</h3>
 <table>
 <thead>
@@ -1005,6 +1020,53 @@
 <blockquote>
 <p><img src="Confluence.assets/checkbox-2099712.jpg" alt="checkbox"></p>
 </blockquote>
+<h3 id="-">尺寸视觉快速查阅</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>视觉（黑）</th>
+<th>视觉（弹窗）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>默认</td>
+<td>填充#2E2F32；内描边1px #4C4D52</td>
+<td>填充#F7F7F7；内描边1px #C9C9C9</td>
+</tr>
+<tr>
+<td>悬停</td>
+<td>描边#0068B3</td>
+<td>描边#0070E0</td>
+</tr>
+<tr>
+<td>选中</td>
+<td>填充#0068B3</td>
+<td>填充#0070E0</td>
+</tr>
+<tr>
+<td>选中不可用</td>
+<td>底色填充#25262A、对勾 #666666</td>
+<td>底色填充#B5B5B5 对勾 #EBEBEB</td>
+</tr>
+<tr>
+<td>不可用</td>
+<td>#25262A</td>
+<td>#B5B5B5</td>
+</tr>
+<tr>
+<td>部分选中</td>
+<td>描边#4C4D52 小方框#0068B3</td>
+<td>描边#C9C9C9 小方框#0070E0</td>
+</tr>
+<tr>
+<td>部分选中不可用</td>
+<td>填充#25262A 小方框#666666</td>
+<td>填充#B5B5B5 小方框#EBEBEB</td>
+</tr>
+</tbody>
+</table>
 <h3 id="-">文字</h3>
 <table>
 <thead>
@@ -1045,7 +1107,7 @@
 <li>定义两种输入框之间上下间距（大、小），尺寸分别<code>8px</code>、<code>4px</code></li>
 <li>定义两种输入框之间左右间距（大、小），尺寸分别<code>16px</code>、<code>8px</code></li>
 <li>标题文字与输入框距离<code>8px</code>，内部文字与输入框左侧间距<code>6px</code></li>
-<li>输入框带控件时，控件容器尺寸<code>16*16px</code>，与输入框右边距<code>2px</code></li>
+<li>输入框带控件时，控件容器尺寸<code>16*16px</code>，与输入框右边距<code>6px</code></li>
 </ul>
 <table>
 <thead>
@@ -1068,7 +1130,7 @@
 <tr>
 <td style="text-align:left">默认态</td>
 <td>#FFFFFF</td>
-<td>填充<code>#000000</code>  描边<code>#4C4D52</code> <code>1px</code> 不带圆角</td>
+<td>填充<code>#000000</code>  描边<code>#595959</code>1px` 不带圆角</td>
 <td>#323232</td>
 <td>填充<code>#FFFFFF</code>描边<code>#B7B7B7</code> <code>1px</code> 不带圆角</td>
 </tr>
@@ -1218,7 +1280,7 @@
 <tr>
 <td>Header</td>
 <td>固定高度30px</td>
-<td>填充#7A7A7A</td>
+<td>填充#49494D 描边#7A7A7A</td>
 </tr>
 <tr>
 <td>Content1</td>
@@ -1243,12 +1305,12 @@
 <tr>
 <td>Button1</td>
 <td>78px*26px</td>
-<td>填充#0086E6 圆角2px</td>
+<td>填充#0075EB 描边#004C99 圆角2px</td>
 </tr>
 <tr>
 <td>Button2</td>
 <td>78px*26px</td>
-<td>填充#EEEEEE 圆角2px 描边#B7B7B7</td>
+<td>填充#F5FAFF 描边#B7B7B7 圆角2px</td>
 </tr>
 <tr>
 <td>Line</td>
@@ -1455,12 +1517,12 @@
 <tr>
 <td>统一样式</td>
 <td>内描边1px #000 圆角2px</td>
-<td>无描边 圆角2px</td>
+<td>内描边1px #004C99 圆角2px</td>
 </tr>
 <tr>
 <td>默认</td>
-<td>#3D76B8</td>
-<td>#0086E6</td>
+<td>#005694</td>
+<td>#0075EB</td>
 </tr>
 <tr>
 <td>悬停</td>
@@ -1485,7 +1547,7 @@
 <tr>
 <td>买入默认</td>
 <td>#BA382D</td>
-<td>E94242</td>
+<td>#E94242</td>
 </tr>
 <tr>
 <td>买入悬停</td>
@@ -1549,7 +1611,7 @@
 <tr>
 <td>默认</td>
 <td>#595C61 文字#FFF</td>
-<td>填充#FAFCFF 描边#B7B7B7 文字#323232</td>
+<td>填充#F5FAFF 描边#B7B7B7 文字#323232</td>
 </tr>
 <tr>
 <td>悬停</td>
@@ -1647,7 +1709,7 @@
 </tr>
 <tr>
 <td>内容区选中</td>
-<td>#20477B</td>
+<td>#005694</td>
 <td>#BBDEFF</td>
 </tr>
 <tr>
@@ -1705,8 +1767,8 @@
 </tr>
 <tr>
 <td>内容区选中</td>
-<td>#0086E6 描边1px #000000</td>
-<td>#0086E6 描边1px #0086E6</td>
+<td>#005694 描边1px #000000</td>
+<td>#0075EB 描边1px #0086E6</td>
 </tr>
 <tr>
 <td>内容区禁用</td>
