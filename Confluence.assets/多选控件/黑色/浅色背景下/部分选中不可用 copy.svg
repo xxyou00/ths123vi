@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>部分选中不可用 copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-682.000000, -161.000000)">
+            <g id="部分选中不可用-copy" transform="translate(682.000000, 161.000000)">
+                <rect id="Rectangle" fill="#B5B5B5" fill-rule="nonzero" x="0" y="0" width="13" height="13" rx="1"></rect>
+                <rect id="Rectangle" fill="#EBEBEB" x="3" y="3" width="7" height="7"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
