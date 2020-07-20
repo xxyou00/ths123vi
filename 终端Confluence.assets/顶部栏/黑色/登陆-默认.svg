@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>登陆-默认</title>
+    <desc>Created with Sketch.</desc>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="规范-6" transform="translate(-314.000000, -187.000000)">
+            <g id="登陆-默认_export" transform="translate(314.000000, 187.000000)">
+                <g id="登陆">
+                    <g>
+                        <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <path d="M7.99921653,7.55626884 C9.6883593,7.55626884 11.0585663,6.18491062 11.0585663,4.49691908 C11.0585663,2.80816006 9.6883593,1.43756931 7.99921653,1.43756931 C6.31045752,1.43756931 4.93986677,2.80816005 4.93986677,4.49691908 C4.93986677,6.18491062 6.31045752,7.55626884 7.99921653,7.55626884 Z M8.76404198,9.08593573 C5.70469222,9.08593573 1.88051702,10.1069875 1.88051702,12.1452855 L1.88051702,14.4397938 L14.1178841,14.4397938 L14.1178841,12.1452855 C14.1178841,10.1069875 10.803859,9.08593573 8.76404198,9.08593573 Z" id="Shape" fill="#8E8E8E" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
