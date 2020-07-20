@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>最大化-1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-蓝" transform="translate(-755.000000, -116.000000)">
+            <g id="最大化-1_export" transform="translate(755.000000, 116.000000)">
+                <g id="最大化-1">
+                    <g id="全屏最大化" transform="translate(7.000000, 7.000000)" fill="#D3DDE6">
+                        <g transform="translate(2.000000, 3.000000)" id="Shape">
+                            <path d="M0,0 L0,10 L12,10 L12,0 L0,0 Z M11,9 L1,9 L1,2 L11,2 L11,9 Z" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                    <rect id="Rectangle" stroke="#EA433A" opacity="0" fill-rule="nonzero" x="0.5" y="0.5" width="29" height="29"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

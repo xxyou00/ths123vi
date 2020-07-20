@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>白色多选选中 copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-343.000000, -3310.000000)">
+            <g id="蓝色-多选" transform="translate(116.000000, 3293.000000)">
+                <g id="白色多选选中-copy" transform="translate(227.000000, 17.000000)">
+                    <g>
+                        <rect id="Rectangle" fill="#0075EB" fill-rule="nonzero" x="0" y="0" width="14" height="14" rx="1.07692308"></rect>
+                        <polyline id="Path" stroke="#FFFFFF" stroke-width="1.5" fill-rule="nonzero" points="3.23076923 7.11173649 5.94119083 9.69230769 11.8724459 4.61110276"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
