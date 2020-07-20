@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>单选默认</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-120.000000, -3241.000000)" fill="#F7F7F7" stroke="#C9C9C9">
+            <g id="蓝色-单选" transform="translate(112.000000, 3222.000000)">
+                <g id="Group-17" transform="translate(8.000000, 16.000000)">
+                    <g id="单选默认" transform="translate(0.000000, 3.000000)">
+                        <g id="Oval">
+                            <g>
+                                <g>
+                                    <circle fill-rule="nonzero" cx="7" cy="7" r="6.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
