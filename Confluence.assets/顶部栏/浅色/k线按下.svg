@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>k线按下</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="顶部栏" transform="translate(-832.000000, -251.000000)">
+            <g id="k线按下_export" transform="translate(832.000000, 251.000000)">
+                <g id="k线按下">
+                    <g id="k线按下-copy">
+                        <g id="k线按下">
+                            <rect id="Rectangle" stroke="#02478D" fill="#0864C0" x="0.5" y="0.5" width="19" height="19" rx="2"></rect>
+                            <path d="M10,6 L10,8 L11,8 L11,14 L10,14 L10,16 L9,16 L9,14 L8,14 L8,8 L9,8 L9,6 L10,6 Z M5,4 L5,6 L6,6 L6,12 L5,12 L5,14 L4,14 L4,12 L3,12 L3,6 L4,6 L4,4 L5,4 Z M15,4 L15,6 L16,6 L16,12 L15,12 L15,14 L14,14 L14,12 L13,12 L13,6 L14,6 L14,4 L15,4 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

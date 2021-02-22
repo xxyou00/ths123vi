@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>单选选中</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="单选选中">
+            <g>
+                <g id="单选默认-copy-2" fill-rule="nonzero" stroke="#0070E0">
+                    <circle id="Oval" cx="7" cy="7" r="6.5"></circle>
+                </g>
+                <circle id="Oval" fill="#0086E6" cx="7" cy="7" r="3.76923077"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

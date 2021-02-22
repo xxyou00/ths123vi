@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>元-3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="表单" transform="translate(-498.000000, -190.000000)">
+            <g id="股-3" transform="translate(498.000000, 190.000000)">
+                <g id="元-3">
+                    <g id="Group-8-Copy" fill-rule="nonzero">
+                        <rect id="Rectangle" stroke="#000000" fill="#34373A" x="0.5" y="0.5" width="23" height="23" rx="2"></rect>
+                        <polygon id="Rectangle" fill="#D2D2D3" points="23 18 23 23 18 23"></polygon>
+                    </g>
+                    <text id="股" font-family="MicrosoftYaHeiUI, Microsoft YaHei UI" font-size="13" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="5" y="17">股</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

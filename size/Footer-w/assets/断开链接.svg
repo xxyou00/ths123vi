@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>断开链接</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="底部栏" transform="translate(-143.000000, -230.000000)">
+            <g id="断开" transform="translate(143.000000, 230.000000)">
+                <g>
+                    <rect id="Rectangle" fill="#DE332C" x="0" y="0" width="30" height="24"></rect>
+                    <path d="M22,18 L22,19 L21,19 L21,18 L22,18 Z M21,17 L21,18 L20,18 L20,17 L21,17 Z M20,16 L20,17 L19,17 L19,16 L20,16 Z M19,15 L19,16 L18,16 L18,15 L19,15 Z M18,14 L18,15 L17,15 L17,14 L18,14 Z" id="Combined-Shape" fill="#FBF7F7"></path>
+                    <path d="M16,15 L17,15 L17,18 L16,18 L16,15 Z" id="Combined-Shape" fill="#FBF7F7"></path>
+                    <path d="M18,14 L18,13 L21,13 L21,14 L18,14 Z" id="Combined-Shape" fill="#FBF7F7"></path>
+                    <path d="M12,8 L12,9 L11,9 L11,8 L12,8 Z M11,7 L11,8 L10,8 L10,7 L11,7 Z M10,6 L10,7 L9,7 L9,6 L10,6 Z M9,5 L9,6 L8,6 L8,5 L9,5 Z M8,4 L8,5 L7,5 L7,4 L8,4 Z" id="Combined-Shape-Copy" fill="#FBF7F7"></path>
+                    <path d="M12,5 L13,5 L13,8 L12,8 L12,5 Z" id="Combined-Shape-Copy-3" fill="#FBF7F7"></path>
+                    <path d="M8,10 L8,9 L11,9 L11,10 L8,10 Z" id="Combined-Shape-Copy-2" fill="#FBF7F7"></path>
+                </g>
+                <g id="Group" transform="translate(14.646447, 11.646447) rotate(45.000000) translate(-14.646447, -11.646447) translate(10.146447, 1.646447)">
+                    <path d="M4.29849704,7.99699462 L7.08680108,6.92056735 C7.32239047,6.82961786 7.47775225,6.60310325 7.47775225,6.35056776 L7.47775225,3.64491266 C7.47775225,2.02517186 6.1646929,0.712112508 4.5449521,0.712112508 L4.30055209,0.712112508 C2.68081129,0.712112508 1.36775193,2.02517186 1.36775193,3.64491266 L1.36775193,6.37278765 C1.36775193,6.61976581 1.51644105,6.84245548 1.74455605,6.93712205 L4.29849704,7.99699462 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="1.22200006"></path>
+                    <path d="M4.09336643,19.0356386 L6.88167046,17.9592113 C7.11725986,17.8682618 7.27262164,17.6417472 7.27262164,17.3892117 L7.27262164,14.6835566 C7.27262164,13.0638158 5.95956228,11.7507565 4.33982148,11.7507565 L4.09542147,11.7507565 C2.47568067,11.7507565 1.16262132,13.0638158 1.16262132,14.6835566 L1.16262132,17.4114316 C1.16262132,17.6584098 1.31131044,17.8810995 1.53942543,17.975766 L4.09336643,19.0356386 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="1.22200006" transform="translate(4.217621, 15.416757) scale(1, -1) translate(-4.217621, -15.416757) "></path>
+                    <rect id="Rectangle" fill="#FFFFFF" transform="translate(4.646447, 6.403806) scale(-1, 1) translate(-4.646447, -6.403806) " x="3.64644661" y="3.90380592" width="2" height="5"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFFFFF" transform="translate(4.192904, 12.913523) scale(-1, 1) translate(-4.192904, -12.913523) " x="3.19290396" y="10.4135231" width="2" height="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>高-1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="高-1_export">
+            <g id="高">
+                <g>
+                    <g id="Rectangle">
+                        <rect stroke="#000000" fill="#595C61" fill-rule="nonzero" x="0.5" y="0.5" width="23" height="23" rx="2"></rect>
+                        <rect fill="#FFFFFF" x="11" y="7" width="1" height="9"></rect>
+                        <rect fill="#FFFFFF" x="7" y="11" width="9" height="1"></rect>
+                        <polygon fill="#D2D2D3" fill-rule="nonzero" points="23 18 23 23 18 23"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

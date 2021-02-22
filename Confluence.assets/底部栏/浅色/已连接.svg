@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>已连接</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="底部栏" transform="translate(-100.000000, -230.000000)">
+            <g id="网络_export备份" transform="translate(100.000000, 230.000000)">
+                <rect id="Rectangle" fill="#27A621" x="0" y="0" width="30" height="24"></rect>
+                <g stroke-width="1" transform="translate(1.000000, 1.000000)"></g>
+                <g id="Group" stroke-width="1" transform="translate(15.000000, 13.000000) rotate(45.000000) translate(-15.000000, -13.000000) translate(11.000000, 4.000000)">
+                    <path d="M3.54174514,7.89588215 L6.33004918,6.81945488 C6.56563857,6.72850538 6.72100035,6.50199078 6.72100035,6.24945528 L6.72100035,3.54380019 C6.72100035,1.92405939 5.407941,0.611000032 3.7882002,0.611000032 L3.54380019,0.611000032 C1.92405939,0.611000032 0.611000032,1.92405939 0.611000032,3.54380019 L0.611000032,6.27167518 C0.611000032,6.51865334 0.75968915,6.741343 0.987804148,6.83600957 L3.54174514,7.89588215 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="1.22200006"></path>
+                    <path d="M3.54174514,16.4498826 L6.33004918,15.3734553 C6.56563857,15.2825058 6.72100035,15.0559912 6.72100035,14.8034557 L6.72100035,12.0978006 C6.72100035,10.4780598 5.407941,9.16500048 3.7882002,9.16500048 L3.54380019,9.16500048 C1.92405939,9.16500048 0.611000032,10.4780598 0.611000032,12.0978006 L0.611000032,14.8256756 C0.611000032,15.0726538 0.75968915,15.2953435 0.987804148,15.39001 L3.54174514,16.4498826 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="1.22200006" transform="translate(3.666000, 12.831001) scale(1, -1) translate(-3.666000, -12.831001) "></path>
+                    <rect id="Rectangle" fill="#FFFFFF" transform="translate(3.488762, 8.488762) scale(-1, 1) translate(-3.488762, -8.488762) " x="2.48876196" y="4.21176173" width="2" height="8.55400045"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

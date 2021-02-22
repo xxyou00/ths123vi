@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>收缩-悬停</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范及控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="顶部栏" transform="translate(-336.000000, -291.000000)">
+            <g id="收缩-悬停_export" transform="translate(336.000000, 291.000000)">
+                <g id="折叠收缩">
+                    <g id="小窗助手-默认_export-copy" transform="translate(1.000000, 0.000000)">
+                        <g id="小窗助手-默认" transform="translate(-1.000000, 0.000000)" fill-rule="nonzero">
+                            <g id="小窗助手">
+                                <polygon id="Shape" fill="#000000" opacity="0" points="16 0 0 0 0 16 16 16"></polygon>
+                                <path d="M10,10 L11,10 L11,9 L12,9 L12,8 L11,8 L11,7 L10,7 L10,6 L9,6 L9,5 L8,5 L8,4 L10,4 L10,5 L11,5 L11,6 L12,6 L12,7 L13,7 L13,8 L14,8 L14,9 L13,9 L13,10 L12,10 L12,11 L11,11 L11,12 L10,12 L10,13 L8,13 L8,12 L9,12 L9,11 L10,11 L10,10 Z M5,10 L6,10 L6,9 L7,9 L7,8 L6,8 L6,7 L5,7 L5,6 L4,6 L4,5 L3,5 L3,4 L5,4 L5,5 L6,5 L6,6 L7,6 L7,7 L8,7 L8,8 L9,8 L9,9 L8,9 L8,10 L7,10 L7,11 L6,11 L6,12 L5,12 L5,13 L3,13 L3,12 L4,12 L4,11 L5,11 L5,10 Z" id="Combined-Shape" fill="#F6FAFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
